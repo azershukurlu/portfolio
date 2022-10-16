@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: beige;
+
+}
+.header{
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 30px;
+    
+
+}
+a{
+    text-decoration: none;
+
+}
+.bio{
+    text-align: center;
+
+}
+.header2{
+    color: blue;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+img{
+    width: 400px;
+    border-radius: 15px;
+}
+img:hover{
+    zoom: 105%;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
